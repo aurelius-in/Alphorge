@@ -55,8 +55,10 @@ Alphorge is the first end-to-end **agentic AI product foundry**:
 
 ## 📂 Repo Layout
 
-```
+```bash
+
 alphorge/ README.md docs/ one-pager.md arch-diagram.png engine/ api/            # FastAPI endpoints graph/          # LangGraph nodes & orchestration policies/       # OPA/py governance checks builders/       # codegen templates evals/          # scenario packs + metrics audits/         # hash-chain utils tests/          # pytest studio/ web/            # React/MUI dashboard (traces, pricing, CRM-lite) flows/            # *.flow.json (Langflow/Visio exports) reports/          # auto-generated eval & decision reports
+
 ```
 
 ---
