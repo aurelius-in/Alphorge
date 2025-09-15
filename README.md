@@ -32,6 +32,27 @@ Alphorge is the first end-to-end **agentic AI product foundry**:
 
 ---
 
+## Branding Variants  
+
+<table>
+<tr>
+<td align="center">
+  <img src="docs/media/alphorge_text_ani.gif" alt="Alphorge text animation" width="240"/><br/>
+  <sub>Animated Text</sub>
+</td>
+<td align="center">
+  <img src="docs/media/alphorge_icon_ani.gif" alt="Alphorge icon animation" width="180"/><br/>
+  <sub>Animated Icon</sub>
+</td>
+<td align="center">
+  <img src="docs/media/alphorge_ani.gif" alt="Alphorge full animation" width="300"/><br/>
+  <sub>Icon + Text Animation</sub>
+</td>
+</tr>
+</table>
+
+---
+
 ## 📂 Repo Layout
 
 alphorge/ README.md docs/ one-pager.md arch-diagram.png engine/ api/            # FastAPI endpoints graph/          # LangGraph nodes & orchestration policies/       # OPA/py governance checks builders/       # codegen templates evals/          # scenario packs + metrics audits/         # hash-chain utils tests/          # pytest studio/ web/            # React/MUI dashboard (traces, pricing, CRM-lite) flows/            # *.flow.json (Langflow/Visio exports) reports/          # auto-generated eval & decision reports
