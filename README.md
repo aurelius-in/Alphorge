@@ -118,9 +118,9 @@ flowchart LR
 | **T2 – Spot checks** | 1 stage              | AI auto-approves low-risk; human checks one selected stage. |
 | **T3 – Autopilot** | 1 per cycle            | One human QA check for the entire cycle; AI handles the rest. |
 
-## Trust Dial
+### Trust Dial
 <p align="center">
-  <img src="./dial.svg" alt="Alphorge Trust Dial" width="800">
+  <img src="./dial.svg" alt="Alphorge Trust Dial" width="500">
 </p>
 
 ### Detailed QA Checks by Cycle Stage
