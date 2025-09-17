@@ -1,7 +1,7 @@
 # Alphorge  
 
 
-```Mermaid
+```mermaid
 
 %%{init: {
   "theme":"base",
