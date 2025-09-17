@@ -1,5 +1,34 @@
 # Alphorge  
 
+
+```Mermaid
+
+%%{init: {
+  "theme":"base",
+  "flowchart": { "curve": "basis" },
+  "themeVariables": { "fontFamily": "Inter, Arial" }
+}}%%
+flowchart LR
+  %% node styles (light fills, no borders, bold black text)
+  classDef n1 fill:#c6e2ff,stroke-width:0,color:#000,font-weight:700;
+  classDef n2 fill:#ffe4c4,stroke-width:0,color:#000,font-weight:700;
+  classDef n3 fill:#e6e6fa,stroke-width:0,color:#000,font-weight:700;
+  classDef n4 fill:#d1ffd1,stroke-width:0,color:#000,font-weight:700;
+  classDef n5 fill:#ffd1d1,stroke-width:0,color:#000,font-weight:700;
+  classDef n6 fill:#fffacd,stroke-width:0,color:#000,font-weight:700;
+  classDef n7 fill:#e0ffff,stroke-width:0,color:#000,font-weight:700;
+  classDef n8 fill:#f5deb3,stroke-width:0,color:#000,font-weight:700;
+  classDef n9 fill:#f0e68c,stroke-width:0,color:#000,font-weight:700;
+
+  %% stadium shapes = wide ovals
+  A([Before building]):::n1 --> B([Turning the idea into software]):::n2 --> C([Pricing and plans]):::n3 --> D([Launch and marketing]):::n4 --> E([Sales and delivery]):::n5 --> F([After launch]):::n6 --> G([Safety, trust, and approvals]):::n7 --> H([Learning and automation]):::n8 --> I([Housekeeping]):::n9 --> A
+
+  %% grey arrow styling
+  linkStyle default stroke:#9aa0a6,stroke-width:2;
+
+```
+
+
 <!-- Alphorge Flow Table -->
 <div style="font-size:12px; line-height:1.35; overflow-x:auto;">
 <table>
