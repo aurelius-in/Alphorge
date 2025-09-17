@@ -1,5 +1,86 @@
 # Alphorge  
 
+<!-- Alphorge Flow Table -->
+<div style="font-size:12px; line-height:1.35; overflow-x:auto;">
+<table>
+  <thead>
+    <tr>
+      <th style="font-size:14px; font-weight:800; text-align:left; white-space:nowrap;">Step</th>
+      <th style="font-size:14px; font-weight:800; text-align:left;">Software Used</th>
+      <th style="font-size:14px; font-weight:800; text-align:left;">Data Source</th>
+      <th style="font-size:14px; font-weight:800; text-align:left;">Description</th>
+      <th style="font-size:14px; font-weight:800; text-align:left;">Tasks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="white-space:nowrap; font-weight:600;">Before building</td>
+      <td style="white-space:normal;">DuckDB, Pandas, forecasting models, survey/outreach tools (Calendly, email APIs)</td>
+      <td style="white-space:normal;">HN, GitHub, G2, surveys, customer calls, past telemetry</td>
+      <td style="white-space:normal;">Collect demand signals and combine them with feedback from the last cycle.</td>
+      <td style="white-space:normal;">Gather trends, score opportunities, run surveys, book calls, consent management.</td>
+    </tr>
+    <tr>
+      <td style="white-space:nowrap; font-weight:600;">Ideas into software</td>
+      <td style="white-space:normal;">RainVibe (codegen), FastAPI, React, Postgres, GitHub Actions, Docker</td>
+      <td style="white-space:normal;">Spec from Alphorge, build requests, templates</td>
+      <td style="white-space:normal;">Generate code, run tests, create preview environments.</td>
+      <td style="white-space:normal;">Scaffold services, apply patches, run CI, verify security scans, deploy preview.</td>
+    </tr>
+    <tr>
+      <td style="white-space:nowrap; font-weight:600;">Pricing and plans</td>
+      <td style="white-space:normal;">Pricing engine, OPA for guardrails, experiment framework (feature flags, A/B test)</td>
+      <td style="white-space:normal;">Competitor data, past sales results, WTP survey data</td>
+      <td style="white-space:normal;">Decide what to charge and how to package tiers safely.</td>
+      <td style="white-space:normal;">Suggest tiers, run tests, enforce min/max margins, approve changes.</td>
+    </tr>
+    <tr>
+      <td style="white-space:nowrap; font-weight:600;">Launch &amp; marketing</td>
+      <td style="white-space:normal;">Campaign automation (SendGrid, LinkedIn API), AI copy/image tools, landing page generator</td>
+      <td style="white-space:normal;">Campaign engagement logs, SEO/social previews, asset templates</td>
+      <td style="white-space:normal;">Promote product and create branded materials.</td>
+      <td style="white-space:normal;">Generate copy, create images/logos, schedule campaigns, design landing pages.</td>
+    </tr>
+    <tr>
+      <td style="white-space:nowrap; font-weight:600;">Sales &amp; delivery</td>
+      <td style="white-space:normal;">CRM-lite (Postgres + API), provisioning pipeline, webhook system</td>
+      <td style="white-space:normal;">Customer signup data, payment provider</td>
+      <td style="white-space:normal;">Deliver accounts and keys to new users and track onboarding.</td>
+      <td style="white-space:normal;">Provision accounts, generate keys, send onboarding, update CRM.</td>
+    </tr>
+    <tr>
+      <td style="white-space:nowrap; font-weight:600;">After launch</td>
+      <td style="white-space:normal;">OpenTelemetry, Prometheus/Grafana, survey tools (NPS), analytics (pgvector clustering)</td>
+      <td style="white-space:normal;">Usage telemetry, NPS surveys, logs</td>
+      <td style="white-space:normal;">Track performance and feedback after release.</td>
+      <td style="white-space:normal;">Collect metrics, gather feedback, analyze churn/upsell, detect issues.</td>
+    </tr>
+    <tr>
+      <td style="white-space:nowrap; font-weight:600;">Safety, trust &amp; approvals</td>
+      <td style="white-space:normal;">OPA, audit hash-chain, SBOM scanners, secrets checkers</td>
+      <td style="white-space:normal;">Policy receipts, dependency scan data, compliance logs</td>
+      <td style="white-space:normal;">Enforce rules and require human approvals where needed.</td>
+      <td style="white-space:normal;">Record decisions, enforce outreach/privacy limits, check for risks, log audits.</td>
+    </tr>
+    <tr>
+      <td style="white-space:nowrap; font-weight:600;">Learning &amp; automation</td>
+      <td style="white-space:normal;">Risk scoring models, auto-promotion/demotion logic, reinforcement learning</td>
+      <td style="white-space:normal;">Historical performance metrics, telemetry, audit outcomes</td>
+      <td style="white-space:normal;">Improve automation over time and reduce human checks.</td>
+      <td style="white-space:normal;">Score risks, adjust trust levels, retrain models, optimize policies.</td>
+    </tr>
+    <tr>
+      <td style="white-space:nowrap; font-weight:600;">Housekeeping</td>
+      <td style="white-space:normal;">Auto-doc pipelines, changelog generators, dashboards (React UI), S3 for artifacts</td>
+      <td style="white-space:normal;">Build reports, flows, code commits</td>
+      <td style="white-space:normal;">Keep everything organized and visible.</td>
+      <td style="white-space:normal;">Update docs, generate diagrams, manage artifacts, refresh dashboards.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
 **Agentic venture factory** that goes from **demand signal → deployed software** with minimal human intervention.  
 
 Agents assess market demand, validate with real outreach, auto-build repos (with tests), price/package, launch campaigns, and handle delivery + upsell — with just **one human QA/creative gate** before release. Every decision is logged, evaluated, and cryptographically signed.  
