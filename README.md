@@ -109,6 +109,34 @@ flowchart LR
 </table>
 </div>
 
+### QA Involvement by Trust Level
+
+| **Level**        | **QA Checks per Cycle** | **Description** |
+|------------------|--------------------------|-----------------|
+| **T0 – Manual**  | All stages               | Human reviews every stage in the cycle. |
+| **T1 – Assisted**| ~50% of stages           | AI reviews everything, human checks about half. |
+| **T2 – Spot checks** | 1 stage              | AI auto-approves low-risk; human checks one selected stage. |
+| **T3 – Autopilot** | 1 per cycle            | One human QA check for the entire cycle; AI handles the rest. |
+
+## Trust Dial
+<p align="center">
+  <img src="./dial.svg" alt="Alphorge Trust Dial" width="800">
+</p>
+
+### Detailed QA Checks by Cycle Stage
+
+| **Cycle Stage**            | **What QA Checks**                          | **Why It Matters** |
+|-----------------------------|---------------------------------------------|--------------------|
+| **Before building**         | Validate demand signals (not spam/noise); review outreach templates | Ensures Alphorge pursues real opportunities and outreach stays compliant. |
+| **Idea → software**         | Review generated code patches; confirm test coverage; check security scan results | Prevents broken builds, ensures code quality, and avoids vulnerabilities. |
+| **Pricing and plans**       | Approve tier definitions; confirm margin guardrails; review survey sample validity | Stops underpricing/overpricing and ensures compliance with pricing rules. |
+| **Launch & marketing**      | Check generated copy and brand assets; verify outreach consent flags | Protects brand image and prevents spam/violation of consent policies. |
+| **Sales & delivery**        | Confirm provisioning scripts; test onboarding flows; check key/credential generation | Ensures new users can actually start using the product without blockers. |
+| **After launch**            | Spot-check telemetry dashboards; validate NPS/feedback collection methods | Makes sure usage, customer satisfaction, and issues are measured correctly. |
+| **Safety & approvals**      | Approve release notes; verify audit chain entries; confirm compliance passes | Keeps an immutable log of major actions and enforces policy compliance. |
+| **Learning & automation**   | Review risk scoring outputs; audit promotion/demotion logic | Ensures the trust ramp adjusts correctly and doesn’t skip safeguards. |
+| **Housekeeping**            | Check docs, changelogs, and reports for accuracy | Keeps records trustworthy for future cycles and audits. |
+
 
 **Agentic venture factory** that goes from **demand signal → deployed software** with minimal human intervention.  
 
