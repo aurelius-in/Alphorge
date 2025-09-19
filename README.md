@@ -25,7 +25,7 @@
 * **Forge** = craft, shape, harden, ship to production with confidence.
 * **Alpha + Forge** = a place where first-rate signals are forged into safe actions and trustworthy receipts.
 
-## Layman’s description
+## Summarized
 
 ALPHORGE connects to the tools you already use. It watches for alerts, tickets, sensor events, order disputes, and access changes. It checks simple rules you set, does the routine steps for you, and asks a person when something looks unusual. Every action it takes is recorded with a clear receipt that shows what happened, why it was allowed, and when it ran.
 
