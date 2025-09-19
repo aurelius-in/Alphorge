@@ -1,5 +1,5 @@
 <td align="center">
-  <img src="docs/media/alphorge_text_ani.gif" alt="Alphorge text animation" width="240"/><br/>
+  <img src="docs/media/alphorge_text_ani.gif" alt="Alphorge text animation" width="400"/><br/>
   <sub>Animated Text</sub>
 </td>
 **Pronounced:** “ALF-forj”
