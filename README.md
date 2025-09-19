@@ -183,7 +183,7 @@ cd web && npm install && npm run dev
 
 ---
 
-## Example policy (Rego, very small)
+## Example policy (Rego)
 
 ```rego
 package alphorge.controls
