@@ -23,7 +23,7 @@
 
 * **Alpha** = first, best, signal, the earliest event that starts a workflow.
 * **Forge** = craft, shape, harden, ship to production with confidence.
-* **Together** = a place where first-rate signals are forged into safe actions and trustworthy receipts.
+* **Alpha + Forge** = a place where first-rate signals are forged into safe actions and trustworthy receipts.
 
 ## Layman’s description
 
