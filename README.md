@@ -1,6 +1,7 @@
 <td align="center">
   <img src="docs/media/alphorge_text_ani.gif" alt="Alphorge text animation" width="400"/><br/>
 </td>
+
 **Pronounced:** “ALF-forj”
 
 **One-liner:** Autopilot you can audit. ALPHORGE watches your tools, follows your rules, takes safe actions, and leaves signed proof for every step.
