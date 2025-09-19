@@ -65,7 +65,7 @@
 **Close‑the‑loop nudge**  
 “If now isn’t the right time, I can check back in a month with a relevant case study. Does that help?”
 
-## MVP scope (mapped to Dave’s workflow)
+## MVP scope (mapped to workflow)
 
 - Import Indeed via Apify and normalize to `JobPosting`.  
 - Parse resume into **Key Metrics**, **Problems Solved**, **Notable Accomplishments**, **Positions**, **Tenure**.  
