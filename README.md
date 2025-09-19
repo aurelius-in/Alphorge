@@ -75,12 +75,6 @@
 - Export Instantly‑ready CSV; basic analytics dashboard.  
 - Light CRM stages and a Meeting Kit (uses your **exact** Calendly line).
 
-## Brand & identity
-
-- **Mark:** Greek alpha shaped into an anvil, with a small spark.  
-- **Palette:** deep charcoal, steel, electric accent for the spark.  
-- **Voice:** plain‑spoken, confident, action verbs.
-
 ## License
 
 Copyright © 2025 Reliable AI Network, LLC. All rights reserved.
