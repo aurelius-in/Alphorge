@@ -4,7 +4,7 @@
 
 **Pronounced:** “ALF-forj”
 
-#### Autopilot you can audit. ALPHORGE watches your tools, follows your rules, takes safe actions, and leaves signed proof for every step.
+#### *Autopilot you can audit. ALPHORGE watches your tools, follows your rules, takes safe actions, and leaves signed proof for every step.*
 
 <table>
 <tr>
